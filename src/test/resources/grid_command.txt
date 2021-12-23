@@ -1,0 +1,10 @@
+
+Run the command from resources folder
+
+Hub 4.1.0 command
+java -jar selenium-server-4.1.0.jar  hub
+
+Node command
+java -Dwebdriver.chrome.driver=.\drivers\chromedriver.exe -Dwebdriver.gecko.driver=.\drivers\geckodriver.exe -Dwebdriver.edge.driver=.\drivers\msedgedriver.exe -jar selenium-server-4.1.0.jar node --grid-url http://localhost:4444
+
+
